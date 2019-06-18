@@ -1,0 +1,6 @@
+<!--pages/history/history.wxml-->
+<import src='./history_template/history_template.wxml' />
+<block wx:for= '{{historyData}}' wx:for-item='item' wx:key='index'>
+  <template is='historyList' data = '{{...item}}' />
+</block>
+

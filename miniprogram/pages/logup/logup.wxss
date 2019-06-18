@@ -1,0 +1,32 @@
+/* pages/logup/logup.wxss */
+
+.logupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.userLogup {
+  margin-top: 150rpx;
+  text-align: center;
+  margin-bottom: 80rpx;
+  font-size: 60rpx;
+  font-family: "黑体";
+  color: rgb(24, 19, 19);
+}
+
+.logupstu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50rpx;
+}
+
+.spase {
+  border: 1rpx solid #109d59;
+}
+
+.logupButton {
+  width: 70%;
+  margin-top: 100rpx;
+  background: #109d59;
+}

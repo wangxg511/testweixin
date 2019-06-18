@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/sign/sign",
+    "pages/logup/logup",
+    "pages/history/history",
+    "pages/creat/creat",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "易签在线",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/sign/sign",
+        "text": "课堂签到",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/bookSelected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/mySelected.png"
+      }
+    ],
+    "color": "#bfbfbf",
+    "selectedColor": "#1AAD19"
+  
+    
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

@@ -1,0 +1,14 @@
+<!--pages/about/about.wxml-->
+<view class='aboutContainer'>
+  <view class='aboutTitle'>
+    <text class='aboutTitleTest'>关于我们</text>
+  </view>
+  <view class='aboutText'>
+    <text class='aboutTextText'>    此小程序仅仅用于个人毕业设计，适用于校园课堂签到，如需反馈，请使用以下联系方式联系本人。</text>
+  </view>
+  <view class='aboutEmail'>
+    <view class='aboutEmailText'>邮箱：1182769238@qq.com</view>
+    <view class='aboutEmailText'>电话：123321</view>
+    <view class='aboutEmailText'>地址：河南省郑州市新郑市</view>
+  </view>
+</view>

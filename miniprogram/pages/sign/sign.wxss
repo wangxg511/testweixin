@@ -1,0 +1,49 @@
+.signContainer {
+  margin-top: 200rpx;
+}
+
+.userSign {
+  margin-top: 150rpx;
+  text-align: center;
+  margin-bottom: 80rpx;
+  font-size: 60rpx;
+  font-family: "黑体";
+  color: rgb(24, 19, 19);
+}
+
+.signtext {
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+
+.radio {
+  margin-left: 110rpx;
+  margin-top: 20rpx;
+}
+
+.spase {
+  display: flex;
+  border: 1rpx solid #109d59;
+  margin-top: 30rpx;
+  margin-left: 110rpx;
+  margin-right: 200rpx;
+}
+
+.viewButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signButton {
+  width: 70%;
+  background: #109d59;
+  margin-top: 100rpx;
+  color: #fff;
+}

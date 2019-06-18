@@ -1,0 +1,41 @@
+<!--pages/my/my.wxml-->
+<view class="user-container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登陆 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+<view class="tab-container">
+
+  <view class="tab-item">
+    <view bindtap='gologup'>
+      <image src="../../images/minilogin.png" mode="aspectFit" class="tab-icon"></image>
+      <text class="tab-text">绑定学生信息</text>
+    </view>
+  </view>
+
+  <view class="tab-item">
+    <view bindtap='gohistory'>
+      <image src="../../images/minilogin.png" mode="aspectFit" class="tab-icon"></image>
+      <text class="tab-text">签到历史查询</text>
+    </view>
+    <!-- <view class="tab-arrow"></view> -->
+  </view>
+ <view class="tab-item">
+    <view bindtap='goCreatSign'>
+      <image src="../../images/minilogin.png" mode="aspectFit" class="tab-icon"></image>
+      <text class="tab-text">创建签到场景</text>
+    </view>
+    <!-- <view class="tab-arrow"></view> -->
+  </view>
+  <view class="tab-item">
+    <view bindtap='goabout'>
+      <image src="../../images/minilogin.png" mode="aspectFit" class="tab-icon"></image>
+      <text class="tab-text">关于我们</text>
+    </view>
+  </view>
+</view>

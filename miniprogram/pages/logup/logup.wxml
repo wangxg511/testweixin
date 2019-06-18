@@ -1,0 +1,20 @@
+<!--pages/logup/logup.wxml-->
+<view class='logupContainer'>
+  <view class="userLogup">绑定信息</view>
+  <view class='logupstu'>
+    <text>学号: </text>
+    <input class='spase' bindinput='listenStuid'></input>
+  </view>
+
+  <view class='logupstu'>
+    <text>姓名: </text>
+    <input class='spase' focus='ture' bindinput='listenStuname'></input>
+  </view>
+
+  <view class='logupstu'>
+    <text>班级: </text>
+    <input class='spase' focus='ture' bindinput='listenStuclass'></input>
+  </view>
+
+  <button class='logupButton' bindtap='logup'>信息绑定</button>
+</view>

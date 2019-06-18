@@ -1,0 +1,19 @@
+<view class='creatContainer'>
+  <view class='creatitem'>
+    <view class="userCreat">创建签到</view>
+    <view class='creatinfo'>
+      <text>班级: </text>
+      <input class='spase' bindinput='listenClass'></input>
+    </view>
+    <view class='creatinfo'>
+      <text>科目: </text>
+      <input class='spase' focus='ture' bindinput='listenCourse'></input>
+    </view>
+
+    <view class='creatinfo'>
+      <text>蓝牙: </text>
+      <input class='spase' focus='ture' bindinput='listenBT'></input>
+    </view>
+    <button class='creatButton' bindtap='creatSign'>创建签到</button>
+  </view>
+</view>

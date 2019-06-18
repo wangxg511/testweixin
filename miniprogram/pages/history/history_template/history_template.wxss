@@ -1,0 +1,42 @@
+/* pages/history/history.wxss */ 
+
+.historyList {
+  background: #f1f1f1;
+  margin-top: 10rpx;
+}
+
+.stuTime {
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  margin-left: 30rpx;
+}
+
+.stuIcon {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 10rpx;
+}
+
+.stuName {
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+}
+
+.stuDade {
+  margin-bottom: 5rxp;
+  font-size: 26rpx;
+}
+
+.stuLocation {
+  font-size: 32rpx;
+  margin-left: 30rpx;
+  margin-right: 20rpx;
+}
+
+.stuCourse {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+

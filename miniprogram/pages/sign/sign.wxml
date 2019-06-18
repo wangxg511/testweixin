@@ -1,0 +1,22 @@
+<!--pages/sign/sign.wxml-->
+<view class='signContainer'>
+ <view class="userSign">课堂签到</view>
+  <view class='signtext'>
+    <text class='signtext'>请选择课程：</text>
+  </view>
+  <view>
+    <picker bindchange='pickerChange' value='{{index}}' range='{{classInfo}}'>
+  
+       <text class='spase'>选择：{{classInfo[index]}}</text>
+    </picker>
+  </view>
+  <view class='signtext'>
+    <text class='signtext'>填写上课教室:</text>
+  </view>
+  <view>
+    <input class='spase'  focus='ture' bindinput='listenClassRoom'></input>
+  </view>
+  <view>
+   <button class='signButton' bindtap='signin'>点击签到</button>
+  </view>
+</view>

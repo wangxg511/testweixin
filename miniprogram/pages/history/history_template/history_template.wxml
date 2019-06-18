@@ -1,0 +1,15 @@
+<!--pages/history/history.wxml-->
+<!-- 历史信息记录的模板wxml -->
+<template name='historyList'>
+  <view class='historyList'>
+    <view class='stuTime'>
+      <image class='stuIcon' src='{{userinfo.avatarUrl}}'></image>
+      <text class='stuName'>{{stuname}}</text>
+      <text class='signDate'>{{signdate}}</text>
+    </view>
+    <view class='signdetail'>
+      <text class='stuLocation'>{{classroom}}</text>
+      <text class='stuCourse'>{{course}}</text>
+    </view>
+  </view>
+</template>

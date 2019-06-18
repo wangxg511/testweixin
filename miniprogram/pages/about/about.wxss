@@ -1,0 +1,30 @@
+/* pages/about/about.wxss */
+.aboutContainer{
+ margin-top: 100rpx;
+ margin-left: 20rpx;
+}
+
+.aboutTitle{
+  margin-top: 30rpx;
+  margin-left: 5rpx
+}
+.aboutTitleTest{
+  font-weight: bold;  /* 字体加粗 */
+  letter-spacing: 2rpx
+}
+
+.aboutText{
+  margin-top: 20rpx;
+  text-indent:2rpx;
+
+}
+.aboutEmail{
+  margin-top: 150rpx;
+}
+
+.aboutEmailText{
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
